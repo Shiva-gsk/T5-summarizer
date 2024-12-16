@@ -3,6 +3,7 @@ Live at:- https://huggingface.co/spaces/Shiva-gsk/Text-Summarizer-with-T5
 ## Problem Statement
 
 Text Summarization on Product Reviews using Pretrained Transformer 
+So, We basically need to use transformers library from huggingface and do text-summarization task on Amazon Product Reviews
 
 
 ## Approach
