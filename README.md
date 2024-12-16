@@ -32,3 +32,12 @@ Word-cloud on review-text
 ![review](image-1.png)
 
 We can see that Summaries contains more adjectives (e.g. great, good) and some product related words
+
+
+## Challenges 
+
+1. As reviews has a long difference of length (ranging from few words to length paragraphs) it was hard to set the min_length and max_length for output tokens by module.
+ - However after test trying models many times i came to conclusion on what to be done.
+ 
+2. The model size of so large that i thought it's hard to host it
+ - However doing it with huggingface spaces using gradio made things easier 
